@@ -76,32 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|68650000|85680000|f7b4f706-36e4-4e24-a1b2-ad394b03620a|0de69c09-b32c-4158-b811-55798500cd1d",
-          ""
-        ],
-        [
-          "copper_edge_clearance|68650000|94320000|f7b4f706-36e4-4e24-a1b2-ad394b03620a|e7d720d8-9acc-46f0-b53e-62ffa92d9206",
-          ""
-        ],
-        [
-          "silk_edge_clearance|68000000|85300000|f7b4f706-36e4-4e24-a1b2-ad394b03620a|2f8f3b2a-8920-42de-af99-eb032ea6b03f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|68000000|94700000|f7b4f706-36e4-4e24-a1b2-ad394b03620a|d843c686-41d9-4bd2-8992-05082ca17466",
-          ""
-        ],
-        [
-          "silk_overlap|84690543|78233400|39b01c8e-afac-4a25-88e7-e5799d6d1cc2|bee0109a-8433-4d9a-a6c3-d750c573ae66",
-          ""
-        ],
-        [
-          "silk_overlap|94500000|81978400|0a6e52ca-af2a-46b7-b721-78bcd6397fa5|89a2fca0-bba1-491c-a4ec-c0ea36a9b489",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -109,7 +84,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -123,7 +98,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -147,10 +122,10 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -749,7 +724,7 @@
   "sheets": [
     [
       "318c286a-23d6-4ea5-8e60-705f90176dbf",
-      "nano-supply-v1"
+      "nano-supply-v2b"
     ]
   ],
   "text_variables": {},

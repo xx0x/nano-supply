@@ -1110,7 +1110,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10705,7 +10705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "nano-supply:TYPE-C-31-M-12"
 			(at 46.99 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10755,7 +10755,7 @@
 		(pin "B1"
 			(uuid "df308b23-7c7f-433d-a683-280487de75da")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "24770405-32a8-4b93-99c2-17eedc122af7")
 		)
 		(pin "A12"
@@ -11489,7 +11489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "nano-supply:TestPads_1x02_P2.54mm"
 			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11568,7 +11568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "nano-supply:TestPads_1x03_P2.54mm"
 			(at 152.4 64.77 0)
 			(hide yes)
 			(show_name no)
