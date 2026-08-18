@@ -1,0 +1,55 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1u,C_0603_1608Metric,78.0,-90.0,0.0,top
+C10,10u,C_1206_3216Metric,150.0,-90.2,-90.0,top
+C11,10u,C_1206_3216Metric,150.0,-97.4,-90.0,top
+C12,10u,C_1206_3216Metric,150.0,-84.6,90.0,top
+C13,10u,C_1206_3216Metric,190.0,-90.2,-90.0,top
+C14,10u,C_1206_3216Metric,190.0,-97.4,-90.0,top
+C15,10u,C_1206_3216Metric,190.0,-84.6,90.0,top
+C2,4.7u,C_1206_3216Metric,78.3,-84.2,90.0,top
+C3,10u,C_1206_3216Metric,83.0,-73.6,180.0,top
+C4,10u,C_1206_3216Metric,83.0,-76.1,180.0,top
+C5,10u,C_1206_3216Metric,111.5,-90.2,-90.0,top
+C6,10u,C_1206_3216Metric,111.5,-97.4,-90.0,top
+C7,10u,C_1206_3216Metric,83.0,-78.6,180.0,top
+C8,10u,C_1206_3216Metric,83.0,-81.0,180.0,top
+C9,10u,C_1206_3216Metric,111.6,-82.4,90.0,top
+D1,XL-3210SURUGC,XL-3210SURUGC,69.96,-82.1,90.0,top
+D2,LED,LED_0603_1608Metric,150.0,-106.0,90.0,top
+D3,LED,LED_0603_1608Metric,153.0,-106.0,-90.0,top
+D4,LED,LED_0603_1608Metric,147.0,-106.0,90.0,top
+D5,BZT52C15,D_SOD-123,82.6,-105.7,-90.0,top
+H1,MountingHole,MountingHole_3.2mm_M3,76.0,-74.0,0.0,top
+H2,MountingHole,MountingHole_3.2mm_M3,76.0,-106.0,0.0,top
+H3,MountingHole_Pad,MountingHole_3.2mm_M3_Pad,130.0,-74.0,0.0,top
+H4,MountingHole_Pad,MountingHole_3.2mm_M3_Pad,130.0,-106.0,0.0,top
+H5,MountingHole_Pad,MountingHole_3.2mm_M3_Pad,170.0,-74.0,0.0,top
+H6,MountingHole_Pad,MountingHole_3.2mm_M3_Pad,170.0,-106.0,0.0,top
+H7,MountingHole_Pad,MountingHole_3.2mm_M3_Pad,210.0,-74.0,0.0,top
+H8,MountingHole_Pad,MountingHole_3.2mm_M3_Pad,210.0,-106.0,0.0,top
+J1,USB_C_Receptacle_USB2.0_16P,TYPE-C-31-M-12,71.185,-90.0,-90.0,top
+J2,Conn_01x03_Pin,TestPads_1x03_P2.54mm,70.24,-100.63,180.0,bottom
+J3,IDC 2x8 SMD,IDC-Header_2x08_P2.54mm_Vertical_SMD,120.0,-90.0,180.0,top
+J4,IDC 2x8 SMD,IDC-Header_2x08_P2.54mm_Vertical_SMD,140.0,-90.0,180.0,top
+J5,IDC 2x8 SMD,IDC-Header_2x08_P2.54mm_Vertical_SMD,160.0,-90.0,180.0,top
+J6,IDC 2x8 SMD,IDC-Header_2x08_P2.54mm_Vertical_SMD,180.0,-90.0,180.0,top
+J7,IDC 2x8 SMD,IDC-Header_2x08_P2.54mm_Vertical_SMD,200.0,-90.0,180.0,top
+J8,IDC 2x8 SMD,IDC-Header_2x08_P2.54mm_Vertical_SMD,220.0,-90.0,180.0,top
+J9,Conn_01x02_Pin,TestPads_1x02_P2.54mm,70.0,-77.27,0.0,bottom
+Q1,AONR21307,TRANS_AONR21307,81.7,-84.5975,90.0,top
+Q2,MMBT3904,SOT-23,72.5,-82.1,180.0,top
+R1,10,R_0603_1608Metric,78.0,-88.0,0.0,top
+R10,47k,R_0603_1608Metric,75.1,-82.1,-90.0,top
+R11,3.3k,R_0805_2012Metric,70.9,-78.6,180.0,top
+R2,49.9k,R_0603_1608Metric,82.0,-88.0,0.0,top
+R3,5.1k,R_0603_1608Metric,82.0,-90.0,180.0,top
+R4,NA,R_0603_1608Metric,82.9,-95.9,-90.0,top
+R5,5.1k,R_0603_1608Metric,82.9,-92.8,90.0,top
+R6,1.5k,R_0805_2012Metric,82.6,-101.1,-90.0,top
+R7,22k,R_0603_1608Metric,150.0,-103.0,-90.0,top
+R8,22k,R_0603_1608Metric,153.0,-103.0,-90.0,top
+R9,10k,R_0603_1608Metric,147.0,-103.0,-90.0,top
+U1,HUSB238_xxxDD,WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm,78.4925,-93.1,0.0,top
+U2,LTV-817S,SMDIP-4_W9.53mm,75.1,-98.9,180.0,top
+VR1,DKMW30F-12,CONV_DKMW30F-12,97.02,-95.96,0.0,top
+VR2,SPBW03F-05,SPBW03F-05_MWU,97.02,-76.34,0.0,top
