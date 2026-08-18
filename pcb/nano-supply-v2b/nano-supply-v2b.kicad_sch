@@ -2181,6 +2181,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -2757,7 +2856,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "PS"
+			(property "Reference" "VR"
 				(at -12.7 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3239,28 +3338,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "VR"
+				(at -5.842 8.382 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Value" "SPBW03F-05"
-				(at 20.32 7.62 0)
+				(at -0.762 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Footprint" "nano-supply:SPBW03F-05_MWU"
-				(at 0 0 0)
+				(at 0.254 -9.906 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3272,7 +3371,7 @@
 				)
 			)
 			(property "Datasheet" "SPBW03F-05"
-				(at 0 0 0)
+				(at 0.508 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3284,7 +3383,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at -20.32 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3317,176 +3416,141 @@
 				)
 			)
 			(symbol "SPBW03F-05_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 33.02 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "R.C."
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
-					(at 40.64 -7.62 180)
-					(length 7.62)
+					(at 12.7 -5.08 180)
+					(length 5.08)
 					(name "N.C."
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 40.64 -5.08 180)
-					(length 7.62)
+				(pin power_out line
+					(at 12.7 -2.54 180)
+					(length 5.08)
 					(name "VOUT+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 40.64 -2.54 180)
-					(length 7.62)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 5.08)
 					(name "VOUT-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin no_connect line
-					(at 40.64 0 180)
-					(length 7.62)
+					(at 12.7 2.54 180)
+					(length 5.08)
 					(name "N.C."
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SPBW03F-05_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "R.C."
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3872,12 +3936,6 @@
 		(uuid "293fa84d-1a8c-444e-98eb-285808e65598")
 	)
 	(junction
-		(at 205.74 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dcd074d-9b54-427f-9cfd-b995dc9cd557")
-	)
-	(junction
 		(at 71.12 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3938,6 +3996,12 @@
 		(uuid "44a7f606-c875-4aa7-9de0-15dace705a78")
 	)
 	(junction
+		(at 198.12 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "453c110e-bc2a-4ff8-9b82-31916b477b99")
+	)
+	(junction
 		(at 190.5 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3960,12 +4024,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50e89e76-fed9-41fc-bb94-5bae8516ecee")
-	)
-	(junction
-		(at 198.12 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5179ee92-fcdd-4005-ae68-3107533203b4")
 	)
 	(junction
 		(at 54.61 116.84)
@@ -4044,12 +4102,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "729c439f-9407-4566-95f0-84b3efb22af3")
-	)
-	(junction
-		(at 207.01 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76dd1f05-d22b-4571-a457-c3ecc6013267")
 	)
 	(junction
 		(at 104.14 114.3)
@@ -4152,6 +4204,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acb7f2b8-5484-4ad9-aa6e-e9156056b94f")
+	)
+	(junction
+		(at 208.28 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b025ed84-e5f0-46e2-b9ab-dc4af9d26fa2")
 	)
 	(junction
 		(at 120.65 127)
@@ -4647,7 +4705,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 66.04) (xy 257.81 66.04)
+			(xy 238.76 66.04) (xy 250.19 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +5035,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 66.04) (xy 205.74 66.04)
+			(xy 198.12 66.04) (xy 213.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5027,16 +5085,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 43.18) (xy 205.74 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65ad84eb-f98d-4d30-90fc-fcdcb71baf9c")
-	)
-	(wire
-		(pts
 			(xy 167.64 63.5) (xy 167.64 60.96)
 		)
 		(stroke
@@ -5057,7 +5105,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 43.18) (xy 201.93 43.18)
+			(xy 201.93 43.18) (xy 208.28 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5397,16 +5445,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 144.78) (xy 214.63 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e198e7-f0a9-4b22-8497-63f02fae9b57")
-	)
-	(wire
-		(pts
 			(xy 124.46 119.38) (xy 137.16 119.38)
 		)
 		(stroke
@@ -5464,6 +5502,16 @@
 			(type default)
 		)
 		(uuid "ad040e08-e5b8-4761-8f2b-7307c4e38231")
+	)
+	(wire
+		(pts
+			(xy 208.28 63.5) (xy 213.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c18148-24b0-4fb2-af33-44c231092302")
 	)
 	(wire
 		(pts
@@ -5717,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 43.18) (xy 205.74 63.5)
+			(xy 208.28 43.18) (xy 208.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5727,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 68.58) (xy 261.62 68.58)
+			(xy 238.76 68.58) (xy 254 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6286,7 +6334,7 @@
 		(uuid "cf77c455-e240-42a3-b16e-1c2f6802772f")
 	)
 	(label "EURO_P5"
-		(at 257.81 68.58 180)
+		(at 250.19 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6316,7 +6364,7 @@
 		(uuid "ea05f6c7-809e-4fb6-904d-cb4b25446354")
 	)
 	(label "EURO_GND"
-		(at 257.81 66.04 180)
+		(at 250.19 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6348,7 +6396,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 257.81 66.04 0)
+		(at 250.19 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6358,7 +6406,7 @@
 		)
 		(uuid "0b252e42-840d-4bb3-a277-50e44c96ae26")
 		(property "Netclass" "HIGH_POWER"
-			(at 258.5085 63.5 0)
+			(at 250.8885 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6369,7 +6417,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 162.56 33.02 0)
+			(at 154.94 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6453,7 +6501,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 261.62 68.58 0)
+		(at 254 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6463,7 +6511,7 @@
 		)
 		(uuid "3677210b-7f6d-4c4d-aaff-d387e1c77003")
 		(property "Netclass" "HIGH_POWER"
-			(at 262.3185 66.04 0)
+			(at 254.6985 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6474,7 +6522,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 166.37 35.56 0)
+			(at 158.75 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6627,7 +6675,7 @@
 	)
 	(symbol
 		(lib_id "nano-supply:SPBW03F-05")
-		(at 205.74 63.5 0)
+		(at 226.06 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6638,27 +6686,27 @@
 		(fields_autoplaced yes)
 		(uuid "027560b5-d33f-442f-8190-bfbcc8b71fab")
 		(property "Reference" "VR2"
-			(at 226.06 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SPBW03F-05"
 			(at 226.06 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPBW03F-05"
+			(at 226.06 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "nano-supply:SPBW03F-05_MWU"
-			(at 205.74 63.5 0)
+			(at 226.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6670,7 +6718,7 @@
 			)
 		)
 		(property "Datasheet" "SPBW03F-05"
-			(at 205.74 63.5 0)
+			(at 226.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +6730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 63.5 0)
+			(at 226.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7271,7 +7319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 162.2552 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7638,7 +7686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 199.0852 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7882,84 +7930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2870d68b-39b5-4fea-8663-2a72095136c2")
-		(property "Reference" "#PWR014"
-			(at 207.01 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23a01dc3-67bb-4f1d-8654-312047cdff25")
-		)
-		(instances
-			(project "nano-supply-v2b"
-				(path "/318c286a-23d6-4ea5-8e60-705f90176dbf"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 30.48 172.72 0)
 		(unit 1)
@@ -7992,7 +7962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 31.4452 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8145,8 +8115,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 207.01 142.24 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 213.36 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8155,9 +8125,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "33da0139-8116-414b-b7c9-b7e656e9100b")
-		(property "Reference" "H1"
-			(at 209.55 139.6999 0)
+		(uuid "31e21a52-6f81-46a5-8693-1c2a29ceca05")
+		(property "Reference" "H2"
+			(at 215.9 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8167,8 +8137,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 209.55 142.2399 0)
+		(property "Value" "MountingHole"
+			(at 215.9 142.2399 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,8 +8149,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 207.01 142.24 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 213.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8191,7 +8161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 142.24 0)
+			(at 213.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,8 +8171,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 207.01 142.24 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 213.36 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,14 +8181,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "11522c21-3259-4069-979b-1509fc12cdf8")
 		)
 		(instances
 			(project "nano-supply-v2b"
 				(path "/318c286a-23d6-4ea5-8e60-705f90176dbf"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8257,7 +8224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 31.4452 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +8420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 117.8052 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8761,7 +8728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "4.7u"
 			(at 87.63 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,7 +8739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 84.7852 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9101,7 +9068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 74.6252 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9364,7 +9331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 60.6552 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9887,7 +9854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 147.0152 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10019,86 +9986,6 @@
 			(project "nano-supply-v2b"
 				(path "/318c286a-23d6-4ea5-8e60-705f90176dbf"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 214.63 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "876d0ae6-ec09-4580-a92c-aa05c3313543")
-		(property "Reference" "H2"
-			(at 217.17 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 217.17 142.2399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 214.63 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 214.63 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad7cc924-a7ac-40b0-a33e-3178ea19cb08")
-		)
-		(instances
-			(project "nano-supply-v2b"
-				(path "/318c286a-23d6-4ea5-8e60-705f90176dbf"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11015,7 +10902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 74.6252 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11069,6 +10956,83 @@
 			(project "nano-supply-v2b"
 				(path "/318c286a-23d6-4ea5-8e60-705f90176dbf"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 204.47 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b43411-605e-409c-aba0-29d7553f2dab")
+		(property "Reference" "H1"
+			(at 207.01 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 207.01 142.2399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 204.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "nano-supply-v2b"
+				(path "/318c286a-23d6-4ea5-8e60-705f90176dbf"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11810,7 +11774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 103.8352 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12059,7 +12023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 173.6852 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +12116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 199.0852 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12493,7 +12457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 117.8052 168.91 0)
 			(hide yes)
 			(show_name no)
