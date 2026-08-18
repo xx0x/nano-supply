@@ -121,7 +121,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -719,7 +719,7 @@
         "uuid": "318c286a-23d6-4ea5-8e60-705f90176dbf"
       }
     ],
-    "used_designators": "Q2,D1,D5,#PWR10,#PWR14,#PWR19-20,R6,R10-11,U2,H2,H9",
+    "used_designators": "U2,D1,D5,#PWR10,#PWR14,#PWR19-20,Q2,R6,R10-11,H2,H9",
     "variants": []
   },
   "sheets": [
