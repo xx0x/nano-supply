@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "nano-supply")(type "KiCad")(uri "${KIPRJMOD}/footprints/nano-supply.pretty")(options "")(descr ""))
-)
