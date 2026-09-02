@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "318c286a-23d6-4ea5-8e60-705f90176dbf")
 	(paper "A4")
+	(title_block
+		(title "Nano Supply, USB-C PD PSU")
+		(date "2026-09-02")
+		(rev "v2b")
+		(company "github.com/xx0x/nano-supply")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -8010,7 +8016,7 @@
 			(justify left bottom)
 		)
 		(uuid "0b252e42-840d-4bb3-a277-50e44c96ae26")
-		(property "Netclass" "HIGH_POWER"
+		(property "Net Class" "HIGH_POWER"
 			(at 250.8885 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8051,7 @@
 			(justify left bottom)
 		)
 		(uuid "13fa2816-4043-436e-a8f7-c497e3e02d2f")
-		(property "Netclass" "HIGH_POWER"
+		(property "Net Class" "HIGH_POWER"
 			(at 250.8885 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8080,7 +8086,7 @@
 			(justify left bottom)
 		)
 		(uuid "199f252f-b8cd-48e0-951e-4da4ad8a5b0d")
-		(property "Netclass" "HIGH_POWER"
+		(property "Net Class" "HIGH_POWER"
 			(at 250.8885 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,7 +8121,7 @@
 			(justify left bottom)
 		)
 		(uuid "3677210b-7f6d-4c4d-aaff-d387e1c77003")
-		(property "Netclass" "HIGH_POWER"
+		(property "Net Class" "HIGH_POWER"
 			(at 254.6985 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8150,7 +8156,7 @@
 			(justify left bottom)
 		)
 		(uuid "3a61354a-2415-41ea-b632-547c832b8f10")
-		(property "Netclass" "HIGH_POWER"
+		(property "Net Class" "HIGH_POWER"
 			(at 250.8885 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,7 +8191,7 @@
 			(justify left bottom)
 		)
 		(uuid "41fb263a-0adb-483f-9f65-85e236e1dd90")
-		(property "Netclass" "HIGH_POWER"
+		(property "Net Class" "HIGH_POWER"
 			(at 191.1985 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8220,7 +8226,7 @@
 			(justify left bottom)
 		)
 		(uuid "5b0c6e1e-0093-488f-8b4b-8f3a8d6415fd")
-		(property "Netclass" "POWER"
+		(property "Net Class" "POWER"
 			(at 23.5585 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8255,7 +8261,7 @@
 			(justify left bottom)
 		)
 		(uuid "a365c023-53fb-48ab-b75a-9f11a5f72ab3")
-		(property "Netclass" "POWER"
+		(property "Net Class" "POWER"
 			(at 68.0085 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
