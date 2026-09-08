@@ -9,6 +9,7 @@
 		(date "2026-09-02")
 		(rev "v2b")
 		(company "github.com/xx0x/nano-supply")
+		(comment 1 "License: CERN-OHL-P-2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -4978,6 +4979,26 @@
 		)
 		(uuid "4a1b0428-3ffb-4489-859a-1fbebd378ec8")
 	)
+	(text "Red LED has a lower forward voltage,\nwill overtake green, making the circuit simpler."
+		(exclude_from_sim no)
+		(at 197.358 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "937049c5-d90e-4eff-ae72-87b3a95fb3e0")
+	)
+	(text "Requires at least 9V USB-PD, the LED will glow red on unsupported USB power supply."
+		(exclude_from_sim no)
+		(at 73.914 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1314b7c-6b9e-4655-98a5-7ca6f1361091")
+	)
 	(junction
 		(at 54.61 121.92)
 		(diameter 0)
@@ -8016,7 +8037,7 @@
 			(justify left bottom)
 		)
 		(uuid "0b252e42-840d-4bb3-a277-50e44c96ae26")
-		(property "Net Class" "HIGH_POWER"
+		(property "Netclass" "HIGH_POWER"
 			(at 250.8885 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,7 +8072,7 @@
 			(justify left bottom)
 		)
 		(uuid "13fa2816-4043-436e-a8f7-c497e3e02d2f")
-		(property "Net Class" "HIGH_POWER"
+		(property "Netclass" "HIGH_POWER"
 			(at 250.8885 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8086,7 +8107,7 @@
 			(justify left bottom)
 		)
 		(uuid "199f252f-b8cd-48e0-951e-4da4ad8a5b0d")
-		(property "Net Class" "HIGH_POWER"
+		(property "Netclass" "HIGH_POWER"
 			(at 250.8885 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8121,7 +8142,7 @@
 			(justify left bottom)
 		)
 		(uuid "3677210b-7f6d-4c4d-aaff-d387e1c77003")
-		(property "Net Class" "HIGH_POWER"
+		(property "Netclass" "HIGH_POWER"
 			(at 254.6985 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8177,7 @@
 			(justify left bottom)
 		)
 		(uuid "3a61354a-2415-41ea-b632-547c832b8f10")
-		(property "Net Class" "HIGH_POWER"
+		(property "Netclass" "HIGH_POWER"
 			(at 250.8885 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8191,7 +8212,7 @@
 			(justify left bottom)
 		)
 		(uuid "41fb263a-0adb-483f-9f65-85e236e1dd90")
-		(property "Net Class" "HIGH_POWER"
+		(property "Netclass" "HIGH_POWER"
 			(at 191.1985 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +8247,7 @@
 			(justify left bottom)
 		)
 		(uuid "5b0c6e1e-0093-488f-8b4b-8f3a8d6415fd")
-		(property "Net Class" "POWER"
+		(property "Netclass" "POWER"
 			(at 23.5585 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8261,7 +8282,7 @@
 			(justify left bottom)
 		)
 		(uuid "a365c023-53fb-48ab-b75a-9f11a5f72ab3")
-		(property "Net Class" "POWER"
+		(property "Netclass" "POWER"
 			(at 68.0085 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
