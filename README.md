@@ -3,6 +3,10 @@ Compact open hardware Eurorack USB-C power supply. Uses USB-PD and requires at l
 
 Lights red on unsupported USB charger, and green when all is OK.
 
+## How it looks? 
+
+<img src="./images/nanosupply.jpg" width="400" />
+
 ## Specs
 
 - up to 1250 mA @ +12V
@@ -16,5 +20,3 @@ You can find gerber/BOM/CPL files inside `pcb/nano-supply-v2b/jlcpcb/production_
 ## License
 
 CERN-OHL-P-2.0
-
-Feel free to use it as you wish. ☺️
