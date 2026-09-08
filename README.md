@@ -3,15 +3,21 @@ Compact open hardware Eurorack USB-C power supply. Uses USB-PD and requires at l
 
 Lights red on unsupported USB charger, and green when all is OK.
 
-## How it looks? 
-
-<img src="./images/nanosupply.jpg" width="400" />
-
 ## Specs
 
 - up to 1250 mA @ +12V
 - up to 1250 mA @ -12V
 - up to 600 mA @ +5V
+  
+## How it looks? 
+
+<img src="./images/nanosupply.jpg" width="400" />
+
+## Schematics
+
+<a href="./pcb/nano-supply-v2b/nano-supply-v2b.pdf">
+<img src="./images/nanosupply-schematics-preview.png" width="300" />
+</a>
 
 ## How to get it?
 
